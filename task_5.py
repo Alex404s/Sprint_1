@@ -15,8 +15,8 @@ class TestCase():
         
 
     def set_result(self, result):
-        self.set_result = result
-        self.testcase_result = self.set_result        
+        self.testcase_result = result
+               
 
     def get_test_case(self):
         print({'Шаги':self.testcase_steps, 'Ожидаемый результат':self.testcase_result})
